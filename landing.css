@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}body{
+    background-image: url(a.jpg);
+}
+nav{
+    background-color: rgb(26, 127, 203);
+    height: 60px;
+    padding-top: 10px;
+    font-size: 25px;
+    border: 9px solid rgb(18, 195, 207);
+    
+}
+li{
+    
+    display: inline;
+    margin-left: 180px;
+    
+}
+.container{
+    position: relative;
+}
+.container1{
+    position: absolute;
+    width: 40%;
+    height: 100px;
+    margin: 20px;
+    padding: 10px;
+    font-size: 20px;
+    color: azure;
+    border: 2px solid rgb(6, 106, 245);
+    border-radius: 30px;
+}
+.container2{
+    position: absolute;
+    right: 0;
+    top: 350px;
+    width: 40%;
+    height: 100px;
+    margin: 20px;
+    padding: 10px;
+    font-size: 20px;
+    color: azure;
+    border: 2px solid rgb(6, 106, 245);
+    border-radius: 30px;
+}
+.container3{
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 40%;
+    height: 200px;
+    margin: 20px;
+    padding: 10px;
+   
+    
+}
+img{
+    height: 70%;
+    width: 80%;
+    padding: 5px;
+    animation:img 3s infinite linear;
+    border: 6px solid rgb(67, 190, 195);
+    box-shadow: 9px 9px 9px   rgb(52, 156, 212);
+}
+@keyframes img{
+    0%{
+        transform: rotateX(0deg);
+    }
+    50%{
+        transform: rotateX(90deg);
+    }
+    75%{
+        transform: rotateX(180deg);
+    }
+    100%{
+        transform: rotateX(360deg);
+    }
+}
+.container4{
+    position: absolute;
+    width: 280px;
+    top: 230px;
+    color: rgb(1, 255, 255);
+    
+    
+}
+ol li{
+    font-size: 30px;
+   
+}
